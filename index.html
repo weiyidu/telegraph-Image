@@ -138,16 +138,16 @@
     <script id="image-template" type="text/x-handlebars-template">
         <tr>
             <td class="image-code-cover">
-                <img class="lazy" onclick="showImage(this)" onload="DrawImage(this, 100, 100)" src="{{raw}}">
+                <img class="lazy" onclick="showImage(this)" onload="DrawImage(this, 100, 100)" src="{{code}}">
             </td>
             <td>
                 <!-- <div class="dlinput_header">URL</div> -->
                 <div class="dlinput_container">
-                    <input class="cpurl form-control" type="text" onclick="this.select();" value="{{code}}">
+                    <input class="form-control" type="text" onclick="this.select();" value="{{code}}">
                     <div style="margin-top: 5px;"></div>
                     <input class="form-control" type="text" onclick="this.select();" value="{{wp}}">
                     <div style="margin-top: 5px;"></div>
-                    <input class="form-control" type="text" onclick="this.select();" value="{{raw}}">
+                    <input class="cpurl form-control" type="text" onclick="this.select();" value="{{raw}}">
                 </div>
             </td>
             <!-- <td style="width:260px;" class="advert"></td> -->
